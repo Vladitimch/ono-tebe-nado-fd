@@ -1,4 +1,40 @@
 /* место для вашего кода */
-h1 {
-  color: #FF0000;
+header {
+background-color: antiquewhite;
+}
+
+cover {
+    background-color:blueviolet;
+}
+
+description{
+    background-color: aqua;
+}
+
+button {
+    background-color: blueviolet;
+}
+
+lots {
+    background-color: aqua;
+}
+
+about_auction {
+    background-color: burlywood;
+}
+
+card_logo {
+
+}
+
+text_block {
+
+}
+
+paragraphs {
+  background-color: grey;
+}
+
+footer {
+    background-color: darkcyan;
 }
