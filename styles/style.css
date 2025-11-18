@@ -48,18 +48,18 @@ about_auction {
     background-color: burlywood;
 }
 
-card_logo {
+.card_logo {
 
 }
 
-text_block {
+.text_block {
 
 }
 
-paragraphs {
+.paragraphs {
   background-color: grey;
 }
 
-footer {
+.footer {
     background-color: darkcyan;
 }
