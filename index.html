@@ -11,16 +11,34 @@
   </head>
   <body>
     <header class="header">
-      <nav>главная  посмотреть лоты об аукционе</nav>
-      <a><img src="images/logo-black.svg" alt="логотип: оно тебе надо" width="148" height="105"></a>
+      <nav class="header_menu">
+        <ul class="header_menu_list">
+          <li class="header_menu_list_item">
+            <a class="menu_item menu_item_non">главная</a>
+          </li>
+          <li class="header_menu_list_item">
+            <a class="menu_item" href="#0">посмотреть лоты</a>
+          </li>
+          <li class="header_menu_list_item">
+            <a class="menu_item" href="#0">об аукционе</a>
+          </li>
+        </ul>
+      </nav>
+      <a class="header_picture"> 
+        <img class="header_picture_font"> <src="images/logo-black.svg" alt="логотип: оно тебе надо" width="148" height="105">
+      </a>
       <address>+9 999 555 5555<br> info@sobaka.ge<br> наб. Принсенграхт 263- 265, Амстердам</address>
     </header>
     <main>
       <div class="cover">
-        <h1>Оно тебе надо?</h1>
+        <div class="cover text_part">
+          <a class="cover_text">Оно</a> 
+          <a class="cover_text">тебе</a> 
+          <a class="cover_text">надо?</a>
+        </div>
         <div class="description">
           <p>Аукцион вещей, вкоторые никто не верил</p>
-          <button>сделать ставку</button>
+          <button class="button">сделать ставку</button>
         </div>
       </div>
       <div class="lots">
@@ -49,15 +67,15 @@
     </main>
     <footer class="footer">
       <address>+9 999 555 5555<br> info@sobaka.ge<br> наб. Принсенграхт 263- 265, Амстердам</address>
-      <nav>
+      <nav class="footer_menu">
         <a>главная</a>
         <a>посмотреть лоты</a>
         <a>об аукционе</a>
       </nav>
       <ul>
-        <li><a><img src="images/yt.svg"></a></li>
-        <li><a><img src="images/vk.svg"></a></li>
-        <li><a><img src="images/pinterest.svg"></a></li>
+        <li><a class="menu_list"><img src="images/yt.svg"></a></li>
+        <li><a class="menu_list"><img src="images/vk.svg"></a></li>
+        <li><a class="menu_list"><img src="images/pinterest.svg"></a></li>
       </ul>
     </footer>
   </body>

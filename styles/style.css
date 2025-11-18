@@ -1,6 +1,31 @@
 /* место для вашего кода */
-header {
-background-color: antiquewhite;
+.header {
+    display: grid;
+    grid-template-columns: 1fr min-content 1fr;
+    align-items: center;
+    padding: 92px 24px 96px;
+}
+
+.header_menu {
+  margin-left: 28px;
+}
+
+.header_menu_list {
+  display: flex;
+  column-gap: 32px;
+  list-style: circle;
+  padding-top: 4px;
+}
+
+.menu_item_non {
+  list-style: none;
+}
+
+.header_picture {
+  max-width: 148px;
+  max-height: 105px;
+  display: flex;
+  margin-left: 38px;
 }
 
 cover {
@@ -12,7 +37,7 @@ description{
 }
 
 button {
-    background-color: blueviolet;
+    background-color: yellow;
 }
 
 lots {
