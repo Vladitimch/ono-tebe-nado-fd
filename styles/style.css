@@ -133,7 +133,7 @@ line-height: 100%;
 }
 
 .lots {
-  margin: 191px 25px 180px 23px;
+  margin: 176px 25px 108px 23px;
 }
 
 .lots_header {
@@ -200,7 +200,7 @@ line-height: 100%;
 
 .underlots_link {
   font-size: 20px;
-  margin-left: 14px;
+  margin-left: 40px;
   text-decoration: none;
   border-bottom: 1px solid;
 }
